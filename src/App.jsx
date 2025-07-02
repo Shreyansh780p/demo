@@ -6,12 +6,13 @@ import "./styles/Pages.css";
 import ChatbotComponent from "./components/Chatbot/ChatbotComponents";
 import DeveloperInfoPopup from "./components/DeveloperInfo/DeveloperInfoPopup";
 import { useState } from "react";
-import HomePage from './pages//HomePage'
-import ContactPage from './pages/ContactPage'
-import AboutPage from './pages/AboutPage'
-import CoursesPage from './pages/CoursesPage'
-import AdmissionsPage from './pages/AdmissionsPage'
-import NotFoundPage from './pages/NotFoundPage'
+import Home from "./mainpages/Home";
+import Contact from "./mainpages/Contact";
+import About from "./mainpages/About";
+import Courses from "./mainpages/Courses";
+import Admission from "./mainpages/Admission";
+import NotFound from "./mainpages/NotFound";
+
 
 function App() {
   
@@ -36,12 +37,12 @@ function App() {
         <Header />
         <div className="content">
           <Routes>
-            <Route path="/" element={<HomePage />} />
-            <Route path="/contact" element={<ContactPage />} />
-            <Route path="/about" element={<AboutPage />} />
-            <Route path="/courses" element={<CoursesPage />} />
-            <Route path="/admissions" element={<AdmissionsPage />} />
-            <Route path="*" element={<NotFoundPage />} />
+            <Route path="/" element={<Home />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/courses" element={<Courses />} />
+            <Route path="/admissions" element={<Admission />} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
           <ChatbotComponent />
         </div>

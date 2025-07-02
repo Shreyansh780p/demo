@@ -1,7 +1,7 @@
 //  src/pages/HomePage.jsx
 import { Link } from "react-router-dom"; // Import Link for internal navigation
 // Add more image imports if needed
-const HomePage = () => {
+const Home = () => {
   return (
     <div className="page-container" style={{ overflow: "auto" }}>
       {/* Hero/Banner Section with Image */}
@@ -77,4 +77,4 @@ const HomePage = () => {
     </div>
   );
 };
-export default HomePage;
+export default Home;

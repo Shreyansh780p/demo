@@ -1,6 +1,6 @@
 // src/pages/NotFoundPage.jsx
 import { Link } from "react-router-dom";
-const NotFoundPage = () => {
+const NotFound = () => {
   return (
     <div
       className="page-container"
@@ -30,4 +30,4 @@ const NotFoundPage = () => {
     </div>
   );
 };
-export default NotFoundPage;
+export default NotFound;

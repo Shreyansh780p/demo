@@ -2,7 +2,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import CollegeTourVideo from '../assets/images/college-tour.mp4'; // Your imported video
-const CoursesPage = () => {
+const Courses = () => {
   return (
     <div className="page-container" style={{overflow:"auto"}}>
       <h1>Our Academic Programs</h1>
@@ -112,4 +112,4 @@ const CoursesPage = () => {
     </div>
   );
 }
-export default CoursesPage;
+export default Courses;

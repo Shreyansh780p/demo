@@ -1,5 +1,5 @@
 // src/pages/AboutPage.jsx
-const AboutPage = () => {
+const About = () => {
   return (
     <div className="page-container" style={{overflow:"auto"}}>
    <h1 className="animate-fade-in-up">About Vivekanand College</h1> {/* <-- ADD THIS CLASS */}
@@ -27,4 +27,4 @@ const AboutPage = () => {
     </div>
   );
 }
-export default AboutPage;
+export default About;

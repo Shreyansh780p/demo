@@ -1,5 +1,5 @@
 // src/pages/ContactPage.jsx
-const ContactPage = () => {
+const Contact = () => {
   return (
     <div className="page-container" style={{overflow:"auto"}}>
       <h1>Contact Us</h1>
@@ -42,4 +42,4 @@ const ContactPage = () => {
     </div>
   );
 }
-export default ContactPage;
+export default Contact;
