@@ -1,6 +1,5 @@
 // src/App.jsx
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import HomePage from "./pages/HomePage";
 import Header from "./components/Headers/Header";
 import Footer from "./components/Footer/Footer";
 import ContactPage from "./pages/ContactPage";
@@ -12,7 +11,7 @@ import NotFoundPage from "./pages/NotFoundPage";
 import ChatbotComponent from "./components/Chatbot/ChatbotComponents";
 import DeveloperInfoPopup from "./components/DeveloperInfo/DeveloperInfoPopup";
 import { useState } from "react";
-
+import HomePage from './pages//HomePage'
 function App() {
   
   const [showPopup, setShowPopup] = useState(true);
