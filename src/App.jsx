@@ -10,7 +10,7 @@ import Contact from "./mainpages/Contact";
 import About from "./mainpages/About";
 import Courses from "./mainpages/Courses";
 import Admission from "./mainpages/Admission";
-import NotFound from "./mainpages/NotFound";
+// import NotFound from "./mainpages/NotFound";
 import Chatbot from "./components/Chatbot/Chatbot";
 
 
