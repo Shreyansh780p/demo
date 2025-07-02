@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Header from "./components/Headers/Header";
 import Footer from "./components/Footer/Footer";
 import "./styles/Pages.css";
-import ChatbotComponent from "./components/Chatbot/ChatbotComponents";
 import DeveloperInfoPopup from "./components/DeveloperInfo/DeveloperInfoPopup";
 import { useState } from "react";
 import Home from "./mainpages/Home";
@@ -12,6 +11,7 @@ import About from "./mainpages/About";
 import Courses from "./mainpages/Courses";
 import Admission from "./mainpages/Admission";
 import NotFound from "./mainpages/NotFound";
+import Chatbot from "./components/Chatbot/Chatbot";
 
 
 function App() {
@@ -44,7 +44,7 @@ function App() {
             <Route path="/admissions" element={<Admission />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
-          <ChatbotComponent />
+          <Chatbot />
         </div>
         <Footer />
       </div>
