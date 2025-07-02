@@ -2,7 +2,7 @@
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Header from "./components/Headers/Header";
 import Footer from "./components/Footer/Footer";
-import ContactPage from "./pages//ContactPage"
+import ContactPage from "./pages/ContactPage"
 import "./styles/pages.css";
 import AboutPage from "./pages/AboutPage";
 import CoursesPage from "./pages/CoursesPage";
